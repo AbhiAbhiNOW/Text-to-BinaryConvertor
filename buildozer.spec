@@ -24,15 +24,15 @@ requirements = kivy,pyjnius
 # (list) Permissions
 android.permissions = INTERNET, USB_PERMISSION, USB_HOST
 
-# (str) NDK path
-android.ndk_path = C:/Android/ndk/21.3.6528147
+# (list) Supported platforms
+android.archs = armeabi-v7a, arm64-v8a
 
-# (str) SDK path
-android.sdk_path = C:/Android/cmdline-tools
+# (str) Android SDK version to use
+android.sdk = 29
 
-# (str) NDK version
+# (str) Android NDK version to use
 android.ndk = 21b
-
 
 # (list) Supported platforms
 android = true
+
